@@ -208,7 +208,7 @@ public class KMIPClientGUI extends JFrame{
 
 	public static void main(String[] args) {
 		// configure Logger
-		DOMConfigurator.configureAndWatch( "config/log4j-1.2.17.xml", 60*1000 );
+		DOMConfigurator.configureAndWatch( KMIPClientGUI.class.getClassLoader().getResource("config/log4j-1.2.17.xml").getPath(), 60*1000 );
 		logger.info("Hello KMIPClient! What a beatiful day;)");
 		new KMIPClientGUI();
 	}

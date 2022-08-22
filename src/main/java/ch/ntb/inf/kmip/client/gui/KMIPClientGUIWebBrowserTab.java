@@ -153,7 +153,7 @@ public class KMIPClientGUIWebBrowserTab extends JPanel implements HyperlinkListe
 	}
 
 	protected ImageIcon createImageIcon(String path, String description) {
-		URL imgURL = getClass().getResource(path);
+		URL imgURL = getClass().getClassLoader().getResource(path);
 		if (imgURL != null) {
 			ImageIcon i = new ImageIcon(imgURL, description);
 			i.setImage(i.getImage().getScaledInstance(20, 20, Image.SCALE_DEFAULT));;

@@ -59,7 +59,8 @@ public class KMIPClientGUISignal extends JPanel {
 	}
 
 	protected ImageIcon createImageIcon(String path, String description) {
-		java.net.URL imgURL = getClass().getResource(path);
+		java.net.URL imgURL = getClass().getClassLoader().getResource(path);
+//		java.net.URL imgURL = getClass().getResource(path);
 		if (imgURL != null) {
 			ImageIcon i = new ImageIcon(imgURL, description);
 			i.setImage(i.getImage().getScaledInstance(50, 50, Image.SCALE_DEFAULT));;

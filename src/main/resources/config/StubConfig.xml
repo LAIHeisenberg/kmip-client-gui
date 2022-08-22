@@ -53,7 +53,7 @@
 			HTTPS WWW: 			ch.ntb.inf.kmip.stub.transport.KMIPStubTransportLayerHTTPS
 		</description>
 		<param-name>TransportLayer</param-name>
-		<param-value>ch.ntb.inf.kmip.stub.transport.KMIPStubTransportLayerHTTPSLocalHost</param-value>
+		<param-value>ch.ntb.inf.kmip.stub.transport.KMIPStubTransportLayerHTTP</param-value>
 	</init-param>
 
 
@@ -86,7 +86,7 @@
 			NTB: D:\\keystore\\keystore.jks
 		</description>
 		<param-name>KeyStoreLocation</param-name>
-		<param-value>~/keystore.jks</param-value>
+		<param-value>/home/laiyz/keystore.jks</param-value>
 	</init-param>
 
 
