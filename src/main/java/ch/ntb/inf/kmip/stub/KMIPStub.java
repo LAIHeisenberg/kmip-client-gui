@@ -5,13 +5,13 @@
 
 package ch.ntb.inf.kmip.stub;
 
-import ch.ntb.inf.kmip.config.ContextProperties;
 import ch.ntb.inf.kmip.container.KMIPContainer;
 import ch.ntb.inf.kmip.process.decoder.KMIPDecoderInterface;
 import ch.ntb.inf.kmip.process.encoder.KMIPEncoderInterface;
 import ch.ntb.inf.kmip.stub.transport.KMIPStubTransportLayerInterface;
 import ch.ntb.inf.kmip.test.UCStringCompare;
 import ch.ntb.inf.kmip.utils.KMIPUtils;
+
 import java.util.ArrayList;
 import org.apache.log4j.Logger;
 
@@ -23,21 +23,12 @@ public class KMIPStub implements KMIPStubInterface {
 
     public KMIPStub() {
         try {
-            String xmlPath = this.getClass().getResource("config/").getPath();
-            if (xmlPath.contains("kmip4j.jar!")) {
-                xmlPath = xmlPath.substring(5);
-                xmlPath = xmlPath.replace("kmip4j.jar!/ch/ntb/inf/kmip/stub/", "");
-//                xmlPath = xmlPath.replace("/", "\\");
-            }
-
-            ContextProperties props = new ContextProperties(xmlPath, "StubConfig.xml");
-            this.encoder = (KMIPEncoderInterface)this.getClass(props.getProperty("Encoder"), "ch.ntb.inf.kmip.process.encoder.KMIPEncoder").newInstance();
-            this.decoder = (KMIPDecoderInterface)this.getClass(props.getProperty("Decoder"), "ch.ntb.inf.kmip.process.decoder.KMIPDecoder").newInstance();
-            this.transportLayer = (KMIPStubTransportLayerInterface)this.getClass(props.getProperty("TransportLayer"), "ch.ntb.inf.kmip.stub.transport.KMIPStubTransportLayerHTTP").newInstance();
-            this.transportLayer.setTargetHostname(props.getProperty("TargetHostname"));
-            this.transportLayer.setKeyStoreLocation(props.getProperty("KeyStoreLocation"));
-            this.transportLayer.setKeyStorePW(props.getProperty("KeyStorePW"));
-            UCStringCompare.testingOption = props.getIntProperty("Testing");
+            this.encoder = (KMIPEncoderInterface)this.getClass(null, "ch.ntb.inf.kmip.process.encoder.KMIPEncoder").newInstance();
+            this.decoder = (KMIPDecoderInterface)this.getClass(null, "ch.ntb.inf.kmip.process.decoder.KMIPDecoder").newInstance();
+            this.transportLayer = (KMIPStubTransportLayerInterface)this.getClass("ch.ntb.inf.kmip.stub.transport.KMIPStubTransportLayerHTTP", "ch.ntb.inf.kmip.stub.transport.KMIPStubTransportLayerHTTP").newInstance();
+            this.transportLayer.setTargetHostname("http://192.168.1.128:8090/KMIPWebAppServer/KMIPServlet");
+            this.transportLayer.setKeyStoreLocation(null);
+            this.transportLayer.setKeyStorePW("123");
         } catch (Exception var3) {
             var3.printStackTrace();
         }

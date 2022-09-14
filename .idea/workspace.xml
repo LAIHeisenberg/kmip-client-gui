@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d5ec940-6133-489b-a0a0-db7498b46c9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/kmip4j.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kmip-client-gui.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ch/ntb/inf/kmip/client/gui/KMIPClientGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/ntb/inf/kmip/client/gui/KMIPClientGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/ntb/inf/kmip/client/gui/KMIPClientGUISignal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/ntb/inf/kmip/client/gui/KMIPClientGUISignal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/ntb/inf/kmip/client/gui/KMIPClientGUIWebBrowserTab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/ntb/inf/kmip/client/gui/KMIPClientGUIWebBrowserTab.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config/StubConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/StubConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/ntb/inf/kmip/client/gui/KMIPClientGUIxml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/ntb/inf/kmip/client/gui/KMIPClientGUIxml.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/ntb/inf/kmip/stub/KMIPStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/ntb/inf/kmip/stub/KMIPStub.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ch/ntb/inf/kmip/client/gui/KMIPClientGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ch/ntb/inf/kmip/client/gui/KMIPClientGUI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ch/ntb/inf/kmip/client/gui/KMIPClientGUIAbout.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ch/ntb/inf/kmip/client/gui/KMIPClientGUIAbout.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ch/ntb/inf/kmip/client/gui/KMIPClientGUIFreestyleTab.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ch/ntb/inf/kmip/client/gui/KMIPClientGUIFreestyleTab.class" afterDir="false" />
@@ -35,9 +33,6 @@
       <change beforePath="$PROJECT_DIR$/target/classes/ch/ntb/inf/kmip/stub/KMIPStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ch/ntb/inf/kmip/stub/KMIPStub.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/config/StubConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/StubConfig.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,97 +45,6 @@
   <component name="FavoritesManager">
     <favorites_list name="kmip-client-gui" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch/ntb/inf/kmip/stub/KMIPStub.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch/ntb/inf/kmip/client/gui/KMIPClientGUIUseCaseViewer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="200" column="64" lean-forward="true" selection-start-line="200" selection-start-column="64" selection-end-line="200" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch/ntb/inf/kmip/client/gui/KMIPClientGUIxml.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="152" column="33" selection-start-line="152" selection-start-column="33" selection-end-line="152" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/src/main/resources/kmip4j.jar!/ch/ntb/inf/kmip/stub/transport/KMIPStubTransportLayerInterface.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/src/main/resources/kmip4j.jar!/ch/ntb/inf/kmip/types/KMIPEnumeration.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/src/main/resources/kmip4j.jar!/ch/ntb/inf/kmip/kmipenum/EnumCryptographicAlgorithm.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="96" column="13" lean-forward="true" selection-start-line="96" selection-start-column="13" selection-end-line="96" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/config/StubConfig.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/config/SkeletonConfig.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-484" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/src/main/resources/kmip4j.jar!/ch/ntb/inf/kmip/stub/config/StubConfig.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="596">
-              <caret line="90" column="17" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -148,46 +52,16 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>img/ArrowBack.png</find>
-      <find>img/CircleGreen.png</find>
-      <find>Could not connect to remote log4j</find>
-      <find>CircleGreen.png</find>
-      <find>keystore.jks</find>
-      <find>createKeyManagers</find>
-      <find>Encoded Response from Server: (actual/expected)</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/ch/ntb/inf/kmip/client/gui/KMIPClientGUI.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/ntb/inf/kmip/client/gui/KMIPClientGUIWebBrowserTab.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/ntb/inf/kmip/client/gui/KMIPClientGUISignal.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/config/StubConfig.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/ntb/inf/kmip/stub/KMIPStub.java" />
-      </list>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="updateIndicesOnProjectOpen" value="false" />
+      </MavenGeneralSettings>
     </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="kmip-client-gui" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="kmip-client-gui" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="304" />
@@ -195,48 +69,35 @@
     <option name="width" value="1386" />
     <option name="height" value="791" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="kmip-client-gui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kmip-client-gui" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectId" id="2EkVx3nD2lRLWkmW5sN6AHyYJoH" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/target" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/target" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/target" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="KMIPClientGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -269,48 +130,62 @@
       <option name="presentableId" value="Default" />
       <updated>1661132509711</updated>
       <workItem from="1661132513825" duration="6344000" />
+      <workItem from="1663139812867" duration="9467000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6344000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="74" y="27" width="1846" height="1053" extended-state="6" />
-    <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" sideWeight="0.5017123" side_tool="true" weight="0.24973205" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49828768" visible="true" weight="0.18080357" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.3297414" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3297414" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3297414" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.2408435" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" weight="0.329582" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="592" y="215" width="800" height="684" key="#Project_Structure" timestamp="1663139839148">
+      <screen x="74" y="27" width="1846" height="1053" />
+    </state>
+    <state x="592" y="215" width="800" height="684" key="#Project_Structure/74.27.1846.1053@74.27.1846.1053" timestamp="1663139839148" />
+    <state x="725" y="315" width="524" height="491" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1663141667263">
+      <screen x="74" y="27" width="1846" height="1053" />
+    </state>
+    <state x="725" y="315" width="524" height="491" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/74.27.1846.1053@74.27.1846.1053" timestamp="1663141667263" />
+    <state x="174" y="127" width="1646" height="853" key="DiffContextDialog" timestamp="1663145068850">
+      <screen x="74" y="27" width="1846" height="1053" />
+    </state>
+    <state x="174" y="127" width="1646" height="853" key="DiffContextDialog/74.27.1846.1053@74.27.1846.1053" timestamp="1663145068850" />
+    <state x="775" y="315" width="424" height="491" key="FileChooserDialogImpl" timestamp="1663141635856">
+      <screen x="74" y="27" width="1846" height="1053" />
+    </state>
+    <state x="775" y="315" width="424" height="491" key="FileChooserDialogImpl/74.27.1846.1053@74.27.1846.1053" timestamp="1663141635856" />
+    <state width="1792" height="304" key="GridCell.Tab.0.bottom" timestamp="1663148901809">
+      <screen x="74" y="27" width="1846" height="1053" />
+    </state>
+    <state width="1792" height="304" key="GridCell.Tab.0.bottom/74.27.1846.1053@74.27.1846.1053" timestamp="1663148901809" />
+    <state width="1792" height="304" key="GridCell.Tab.0.center" timestamp="1663148901809">
+      <screen x="74" y="27" width="1846" height="1053" />
+    </state>
+    <state width="1792" height="304" key="GridCell.Tab.0.center/74.27.1846.1053@74.27.1846.1053" timestamp="1663148901809" />
+    <state width="1792" height="304" key="GridCell.Tab.0.left" timestamp="1663148901809">
+      <screen x="74" y="27" width="1846" height="1053" />
+    </state>
+    <state width="1792" height="304" key="GridCell.Tab.0.left/74.27.1846.1053@74.27.1846.1053" timestamp="1663148901809" />
+    <state width="1792" height="304" key="GridCell.Tab.0.right" timestamp="1663148901809">
+      <screen x="74" y="27" width="1846" height="1053" />
+    </state>
+    <state width="1792" height="304" key="GridCell.Tab.0.right/74.27.1846.1053@74.27.1846.1053" timestamp="1663148901809" />
+    <state x="767" y="190" width="450" height="733" key="RollbackChangesDialog" timestamp="1663149212630">
+      <screen x="74" y="27" width="1846" height="1053" />
+    </state>
+    <state x="767" y="190" width="450" height="733" key="RollbackChangesDialog/74.27.1846.1053@74.27.1846.1053" timestamp="1663149212630" />
+    <state x="480" y="131" width="1024" height="852" key="SettingsEditor" timestamp="1663141927290">
+      <screen x="74" y="27" width="1846" height="1053" />
+    </state>
+    <state x="480" y="131" width="1024" height="852" key="SettingsEditor/74.27.1846.1053@74.27.1846.1053" timestamp="1663141927290" />
+    <state x="648" y="445" width="678" height="231" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1663141662263">
+      <screen x="74" y="27" width="1846" height="1053" />
+    </state>
+    <state x="648" y="445" width="678" height="231" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/74.27.1846.1053@74.27.1846.1053" timestamp="1663141662263" />
+    <state x="647" y="238" width="700" height="630" key="find.popup" timestamp="1663147385909">
+      <screen x="74" y="27" width="1846" height="1053" />
+    </state>
+    <state x="647" y="238" width="700" height="630" key="find.popup/74.27.1846.1053@74.27.1846.1053" timestamp="1663147385909" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -318,7 +193,6 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$PROJECT_DIR$/src/main/resources/kmip4j.jar!/ch/ntb/inf/kmip/stub/transport/KMIPStubTransportLayerHTTPSLocalHost.class</url>
           <line>138</line>
-          <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
@@ -347,213 +221,5 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/ntb/inf/kmip/client/gui/KMIPClientGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="210" column="128" selection-start-line="210" selection-start-column="63" selection-end-line="210" selection-end-column="128" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/ntb/inf/kmip/client/gui/KMIPClientGUIWebBrowserTab.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="157" column="61" selection-start-line="157" selection-start-column="61" selection-end-line="157" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config/log4j-1.2.17.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/ntb/inf/kmip/client/gui/KMIPClientGUISignal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="52" column="73" selection-start-line="52" selection-start-column="73" selection-end-line="52" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/main/resources/kmip4j.jar!/ch/ntb/inf/kmip/stub/transport/KMIPStubTransportLayerHTTP.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/ntb/inf/kmip/stub/transport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/main/resources/kmip4j.jar!/ch/ntb/inf/kmip/stub/transport/KMIPStubTransportLayerHTTPSLocalHost.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/main/resources/kmip4j.jar!/ch/ntb/inf/kmip/stub/config/StubConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
-          <caret line="90" column="17" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config/SkeletonConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-484" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config/StubConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/main/resources/kmip4j.jar!/ch/ntb/inf/kmip/stub/transport/KMIPStubTransportLayerInterface.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/main/resources/kmip4j.jar!/ch/ntb/inf/kmip/types/KMIPEnumeration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/main/resources/kmip4j.jar!/ch/ntb/inf/kmip/kmipenum/EnumCryptographicAlgorithm.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="96" column="13" lean-forward="true" selection-start-line="96" selection-start-column="13" selection-end-line="96" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/ntb/inf/kmip/stub/KMIPStub.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/ntb/inf/kmip/client/gui/KMIPClientGUIxml.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="152" column="33" selection-start-line="152" selection-start-column="33" selection-end-line="152" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/ntb/inf/kmip/client/gui/KMIPClientGUIUseCaseViewer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="200" column="64" lean-forward="true" selection-start-line="200" selection-start-column="64" selection-end-line="200" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>kmip4j</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

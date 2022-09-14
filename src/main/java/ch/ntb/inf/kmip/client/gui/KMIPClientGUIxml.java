@@ -68,11 +68,9 @@ public class KMIPClientGUIxml{
     public KMIPClientGUIxml(KMIPClientGUI gui) {
         this.gui = gui;
         try {
+
             // Try to read external XML config if present
-            String xmlPath = System.getenv("KMIP4J_CONFIG");
-            if(xmlPath == null || xmlPath.length() == 0)
-                xmlPath = "src/main/resources/xml/";
-            fXmlFile = new File(xmlPath + "UseCases.xml");
+            fXmlFile = new File("xml/UseCases.xml");
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
             Document doc = dBuilder.parse(fXmlFile);

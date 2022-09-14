@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="kmip4j">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/src/main/resources/kmip4j.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
